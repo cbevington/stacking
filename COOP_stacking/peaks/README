@@ -1,0 +1,1 @@
+Outputted peaks from running GetPeaks .ini files. If these are copied to COOP/mapio/peaks, the corresponding Stack .ini file can be run without having to rerun the GetPeaks .ini files. See the README in the ini_files directory for the naming structure of each file.

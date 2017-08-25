@@ -1,0 +1,20 @@
+All maps (Planck, peak-patch) used for COOP stacking can be found on my SciNet (scratch2/r/rbond/cbevingt/maps).
+
+Original maps are (all .fits HEALPIX format):
+
+-pp_2rvir				: octant pp tSZ map with pressure profile out to 2x virial radius
+-pp_4rvir				: same as above with 4x virial radius
+-2260Mpc_octant_number_weighting_hp	: the n map for the haloes of the above octant map
+-2260Mpc_octant_M_weighting_hp		: the n*M map for the haloes of the above octant map
+-2260Mpc_octant_M_5thirds_weighting_hp	: the n*M^5/3 map for the haloes of the above octant map
+-nilc_ymaps				: Planck tSZ map
+-nilc_mask				: Planck galactic and point source mask
+-planck_n				: attempted Planck n map from WHL clusters (likely too sparse)
+
+External lists of cluster (theta, phi) positions are in this directory:
+
+-pp_r_ls_500.txt	: ~68000 clusters from the pp octant within 500 Mpc
+-rm.txt			: ~26000 redMaPPer clusters
+-psz.txt		: ~1600 PSZ clusters
+-whl.txt		: ~130000 WHL clusters
+-whl0[value].txt	: a subset of WHL clusters with z > 0.[value]

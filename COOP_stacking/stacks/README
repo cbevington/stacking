@@ -1,0 +1,1 @@
+Ouputted stacks from running the corresponding Stack .ini file. See the ini_files directory README for the naming structure of files. Stacks are saved in PDF, with the arrays of the images embedded in the corresponding .txt file. Expansion coefficients (m0, m2, m4, m6) are also found in corresponding .txt files.

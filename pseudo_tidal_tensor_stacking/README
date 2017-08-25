@@ -1,0 +1,7 @@
+There are four python scripts which do the pseudo tidal tensor (discrete nabla^-2 di dj using 3D cluster positions). If we are applying this to a catalog of real tensors, run cat_angles.py to obtain the rotational angles, then cat_stack.py to run the stack (the code is formatted to extract the cluster information from redMaPPer and/or WHL cluster FITS files -- not pp binary catalogs). If using a pp catalog, run num_density.py to obtain angles, then parallel_stack.py to stack.
+
+Note that WHL and redMaPPer cluster FITS files are located in stacking/COOP/maps. The png's of the stacks running redMaPPer and WHL are located in this directory as well.
+
+TODO:
+-modify search for nearby clusters such that the sphere of the search expands to include a given number of clusters, instead of a constant sphere radius.
+-improve parallelization (relatively slow in the stacking scripts--use MPI4Py?)

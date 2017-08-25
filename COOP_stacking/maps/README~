@@ -1,0 +1,19 @@
+All maps (Planck, peak-patch) used for COOP stacking. COOP generates a number of smoothed versions of these maps by appending _AMPLITUDE_fwhm[value]a to the original fits file, automatic masks by appending _AUTOMASK, oriented maps by appending _ORIENT_QU_fwhm[value]a, and maps with parity by appending _PARITY_fwhm[value]a. If you only copy the original maps listed below, COOP will recreate these additional maps upon running the appropriate .ini file.
+
+Original maps are (all .fits HEALPIX format):
+
+-pp_2rvir				: octant pp tSZ map with pressure profile out to 2x virial radius
+-pp_4rvir				: same as above with 4x virial radius
+-2260Mpc_octant_number_weighting_hp	: the n map for the haloes of the above octant map
+-2260Mpc_octant_M_weighting_hp		: the n*M map for the haloes of the above octant map
+-2260Mpc_octant_M_5thirds_weighting_hp	: the n*M^5/3 map for the haloes of the above octant map
+-nilc_ymaps				: Planck tSZ map
+-nilc_mask				: Planck galactic and point source mask
+-planck_n				: attempted Planck n map from WHL clusters (likely too sparse)
+
+External lists of cluster (theta, phi) positions are also in this directory:
+
+-pp_r_ls_500.txt	: ~68000 clusters from the pp octant within 500 Mpc
+-rm.txt			: ~26000 redMaPPer clusters
+-psz.txt		: ~1600 PSZ clusters
+-whl.txt		: ~130000 WHL clusters

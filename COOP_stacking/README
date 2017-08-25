@@ -1,0 +1,7 @@
+READMEs available in each specific subdir. 
+
+Once COOP is compiled, place any .ini files you want to run in COOP/mapio. The .ini files are structured so that the maps, masks, and external cluster lists are located in COOP/mapio/maps. Outputted peaks are placed in COOP/mapio/peaks, and outputted stacks (in .txt and PDF form) are placed in COOP/mapio/stacks.
+
+TODO:
+-modify code to allow variable smoothing scales based on the redshift of cluster
+-Run random spot finding on various scales and stack, comparing to peak stacks (i.e. subtracting from peak stacks)

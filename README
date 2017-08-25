@@ -1,0 +1,7 @@
+Individual READMEs are available in each directory. Directory breakdown:
+
+-cluster_catalogs: 		real catalogs used for pseudo tidal tensor stacks
+-COOP_stacking:			.ini files and outputted stacks from COOP
+-pseudo_tidal_tensor_stacking:	code that does a discrete nabla^-2 di dj on real cluster data, then stacks
+
+NOTE: maps for COOP_stacking are found on my SciNet (scratch2/r/rbond/cbevingt/maps)

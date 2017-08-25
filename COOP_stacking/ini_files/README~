@@ -1,0 +1,17 @@
+All .ini files have a common format:
+
+	[planck]_[type of stack]_[max]_[orientation]_[parity]_[stack].ini
+
+-planck		: optional, included if stacking on Planck tSZ map, otherwise not included
+-type of stack	: either two letters specifying first the field, then the peak type
+		  i.e. tt = <tSZ|tSZ>, tn = <tSZ|n>, etc, or the cluster catalog name
+		  if stacking Planck tSZ on cluster peaks i.e. whl02 is all whl clusters
+		  with z > 0.2, rm is all redMaPPer clusters, etc.
+-max		: optional, if using the built in peak finding for extrema
+-orientation	: random if no orientation, QU if using nabla^-2 di dj orientation
+-parity		: optional, indicates if symmetry breaking was used, i.e. X_UP indicates
+		  forcing dx > 0
+-stack		: optional, if appended then this is the stacking ini file
+
+For non-stacking .ini files, run (in COOP/mapio) ./GetPeaks [.ini file]. Peaks are stored in COOP/mapio/peaks.
+For stacking .ini files, run (in COOP/mapio) ./Stack [.ini file]. Stacks are stored in COOP/mapio/stacks.

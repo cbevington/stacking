@@ -1,0 +1,3 @@
+asu.fit					:: WHL (~130,000 clusters from Sloan w/ N200, photo and some spec z)
+MCXC.fit				:: MCXC (~1700 clusters, full-sky, w/ R500, M500, spec z)
+redmapper_dr8_public_v6.3_catalog.fits 	:: redMaPPer (~26,000 clusters from Sloan w/ N estimates, photo and some spec z)
